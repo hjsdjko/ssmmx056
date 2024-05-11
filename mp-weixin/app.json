@@ -1,0 +1,85 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/jiaoshi/list",
+    "pages/jiaoshi/add-or-update",
+    "pages/jiaoshi/detail",
+    "pages/qiandao/list",
+    "pages/qiandao/add-or-update",
+    "pages/qiandao/detail",
+    "pages/xueshengqiandao/list",
+    "pages/xueshengqiandao/add-or-update",
+    "pages/xueshengqiandao/detail",
+    "pages/bankexinxi/list",
+    "pages/bankexinxi/add-or-update",
+    "pages/bankexinxi/detail",
+    "pages/jiarubanke/list",
+    "pages/jiarubanke/add-or-update",
+    "pages/jiarubanke/detail",
+    "pages/qingjiaxinxi/list",
+    "pages/qingjiaxinxi/add-or-update",
+    "pages/qingjiaxinxi/detail",
+    "pages/shenpixinxi/list",
+    "pages/shenpixinxi/add-or-update",
+    "pages/shenpixinxi/detail",
+    "pages/xiaojiaxinxi/list",
+    "pages/xiaojiaxinxi/add-or-update",
+    "pages/xiaojiaxinxi/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于微信小程序的学生签到系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#BBBBBB",
+    "selectedColor": "#FF944D",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/qiandao/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "签到"
+      },
+      {
+        "pagePath": "pages/news/list",
+        "iconPath": "static/tabs/news.png",
+        "selectedIconPath": "static/tabs/news_act.png",
+        "text": "通知公告"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
